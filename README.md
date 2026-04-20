@@ -21,6 +21,8 @@ AI/NLP: TextBlob (Sentiment Scoring)
 Visualization: Altair (Strategic Risk Quadrants)
 
 
+
+
  **🎛️System Control Panel (The Left Sidebar)-**
  
 The sidebar acts as the "Simulation Engine", allowing administrators to manipulate global variables to see how they impact institutional risk.
@@ -34,6 +36,9 @@ The Impact: Moving this slider instantly re-plots the Strategic Risk Mapping qua
 **Scale Controls:** Includes toggles for Linear vs. Logarithmic views.
 
 The Logic:In high-variance financial data, logarithmic scales help in identifying micro-trends in massive datasets that would otherwise be hidden in a standard linear view.
+
+
+
 
 📊 **Dashboard Intelligence: Feature Breakdown**
 
