@@ -191,7 +191,7 @@ with col_right:
                     add_audit(f"CRITICAL: Regulatory Halt initiated for ID-{selected_id}.")
                     st.error("Account Frozen for Compliance")
     else:
-        st.success("🎉 Sovereign Watchlist Clear")import streamlit as st
+        st.success("🎉 Sovereign Watchlist Clear")
 
  
  
