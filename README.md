@@ -23,6 +23,32 @@ Visualization: Altair (Strategic Risk Quadrants)
 
 
 
+
+
+## 🔄 System Architecture Flow
+
+```mermaid
+graph TD
+    A[Data Ingestion] -->|Raw Transaction Data| B{Pandas Processor}
+    B -->|Cleaned Data| C(Risk Engine)
+    B -->|Feedback Data| D(NLP Sentiment Engine)
+
+    C -->|Calculates Risk Score| E(Altair Visualizer)
+    D -->|Calculates Sentiment| E
+
+    E -->|Generates Quadrant| F[Blostem Sentinel Dashboard]
+    F -->|Displays Insights| G{Administrator Action}
+
+    G -->|Click: Deploy Protocol| H[Stabilization Triggered]
+    G -->|Click: Regulatory Halt| I[Compliance Freeze]
+
+    H --> J(System Activity Audit)
+    I --> J
+```
+
+
+
+
  
  **🎛️System Control Panel (The Left Sidebar)-**
  
@@ -71,24 +97,5 @@ System Activity Audit: A live ledger at the bottom records every action taken (e
 
 
 
-## 🔄 System Architecture Flow
 
-```mermaid
-graph TD
-    A[Data Ingestion] -->|Raw Transaction Data| B{Pandas Processor}
-    B -->|Cleaned Data| C(Risk Engine)
-    B -->|Feedback Data| D(NLP Sentiment Engine)
-
-    C -->|Calculates Risk Score| E(Altair Visualizer)
-    D -->|Calculates Sentiment| E
-
-    E -->|Generates Quadrant| F[Blostem Sentinel Dashboard]
-    F -->|Displays Insights| G{Administrator Action}
-
-    G -->|Click: Deploy Protocol| H[Stabilization Triggered]
-    G -->|Click: Regulatory Halt| I[Compliance Freeze]
-
-    H --> J(System Activity Audit)
-    I --> J
-```
 
