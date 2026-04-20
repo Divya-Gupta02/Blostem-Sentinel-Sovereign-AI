@@ -1,5 +1,6 @@
-> Streamlit
-> Pandas
-> NumPy
-> Altair
-> Textblob
+streamlit
+pandas
+numPy
+altair
+textblob
+scikit-learn
