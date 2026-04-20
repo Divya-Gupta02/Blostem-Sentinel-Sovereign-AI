@@ -198,8 +198,7 @@ with col_right:
 
 
  
-   
-    st.success("🎉 Sovereign Watchlist Clear")
+
 
 
 
