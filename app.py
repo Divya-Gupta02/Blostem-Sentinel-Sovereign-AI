@@ -130,15 +130,15 @@ with col_left:
   ]
  )
  
-  rule_x = alt.Chart(pd.DataFrame({'x': [50]})).mark_rule(strokeDash=[4,4], color='#cbd5e1').encode(x='x')
-  rule_y = alt.Chart(pd.DataFrame({'y': [75000]})).mark_rule(strokeDash=[4,4], color='#cbd5e1').encode(y='y')
+ rule_x = alt.Chart(pd.DataFrame({'x': [50]})).mark_rule(strokeDash=[4,4], color='#cbd5e1').encode(x='x')
+ rule_y = alt.Chart(pd.DataFrame({'y': [75000]})).mark_rule(strokeDash=[4,4], color='#cbd5e1').encode(y='y')
  
-  st.altair_chart(scatter + rule_x + rule_y, use_container_width=True)
+ st.altair_chart(scatter + rule_x + rule_y, use_container_width=True)
  
-  st.subheader("📜 System Activity Audit")
-  log_container = st.container(height=150)
-  for entry in st.session_state.audit_log[:10]:
-   log_container.markdown(f'<div class="audit-entry">{entry}</div>', unsafe_allow_html=True)
+ st.subheader("📜 System Activity Audit")
+ log_container = st.container(height=150)
+ for entry in st.session_state.audit_log[:10]:
+  log_container.markdown(f'<div class="audit-entry">{entry}</div>', unsafe_allow_html=True)
 with col_right:
  st.subheader("⚡ Action Engine")
  
