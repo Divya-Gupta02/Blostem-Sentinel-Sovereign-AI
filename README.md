@@ -4,11 +4,12 @@ AI driven fintech risk management model for Sovereign banking infrastructure
 Link to working MVP-
 https://blosten-sentinel.streamlit.app/
 
-📖 Project Overview-
+**📖 Project Overview-**
 
 Blostem Sentinel is a specialized risk-monitoring engine designed to stabilize institutional banking ecosystems. It utilizes Sentiment Analysis and Multidimensional Risk Mapping to identify "Flight Risk" accounts and stabilize them through automated institutional protocols.
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
+
 Language: Python 3.10+
 
 Interface: Streamlit (Web Dashboard)
@@ -21,16 +22,17 @@ Visualization: Altair (Strategic Risk Quadrants)
 
 :
 
-🎛️ System Control Panel (The Left Sidebar)
-The sidebar acts as the "Simulation Engine," allowing administrators to manipulate global variables to see how they impact institutional risk:
+**🎛️System Control Panel (The Left Sidebar)-**
 
-Dataset Configuration: This section allows the user to upload data from different banking sectors or regions.
+The sidebar acts as the "Simulation Engine", allowing administrators to manipulate global variables to see how they impact institutional risk.
 
-Risk Threshold Sliders: Administrators can manually adjust the "Risk Sensitivity" (e.g.- setting the threshold at 54%).
+**Dataset Configuration:** This section allows the user to upload data from different banking sectors or regions.
 
-The Impact: Moving this slider instantly re-plots the Strategic Risk Mapping quadrant, highlighting more (or fewer) accounts as "Flight Risks" based on current institutional tolerance.
+**Risk Threshold Sliders:** Administrators can manually adjust the "Risk Sensitivity" (e.g.- setting the threshold at 54%).
 
-Scale Controls: Includes toggles for Linear vs. Logarithmic views.
+**The Impact**: Moving this slider instantly re-plots the Strategic Risk Mapping quadrant, highlighting more (or fewer) accounts as "Flight Risks" based on current institutional tolerance.
 
-The Logic: In high-variance financial data, logarithmic scales help in identifying micro-trends in massive datasets that would otherwise be hidden in a standard linear view.
+**Scale Controls:** Includes toggles for Linear vs. Logarithmic views.
+
+**The Logic**:In high-variance financial data, logarithmic scales help in identifying micro-trends in massive datasets that would otherwise be hidden in a standard linear view.
 
