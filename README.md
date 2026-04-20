@@ -23,6 +23,7 @@ Visualization: Altair (Strategic Risk Quadrants)
 
 
 
+ 
  **🎛️System Control Panel (The Left Sidebar)-**
  
 The sidebar acts as the "Simulation Engine", allowing administrators to manipulate global variables to see how they impact institutional risk.
@@ -36,6 +37,7 @@ The Impact: Moving this slider instantly re-plots the Strategic Risk Mapping qua
 **Scale Controls:** Includes toggles for Linear vs. Logarithmic views.
 
 The Logic:In high-variance financial data, logarithmic scales help in identifying micro-trends in massive datasets that would otherwise be hidden in a standard linear view.
+
 
 
 
@@ -65,4 +67,28 @@ Variable Impact: A bar chart visualizes which factors—such as Market Sentiment
 The "Deploy Protocol" Button: Allows administrators to execute stabilization measures with a single click.
 
 System Activity Audit: A live ledger at the bottom records every action taken (e.g., "ID-1041 resolved via stabilization protocol") ensuring full **regulatory compliance and accountability.**
+
+
+
+
+## 🔄 System Architecture Flow
+
+```mermaid
+graph TD
+    A[Data Ingestion] -->|Raw Transaction Data| B{Pandas Processor}
+    B -->|Cleaned Data| C(Risk Engine)
+    B -->|Feedback Data| D(NLP Sentiment Engine)
+
+    C -->|Calculates Risk Score| E(Altair Visualizer)
+    D -->|Calculates Sentiment| E
+
+    E -->|Generates Quadrant| F[Blostem Sentinel Dashboard]
+    F -->|Displays Insights| G{Administrator Action}
+
+    G -->|Click: Deploy Protocol| H[Stabilization Triggered]
+    G -->|Click: Regulatory Halt| I[Compliance Freeze]
+
+    H --> J(System Activity Audit)
+    I --> J
+```
 
