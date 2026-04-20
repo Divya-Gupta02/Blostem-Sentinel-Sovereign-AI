@@ -185,8 +185,8 @@ with col_right:
    if st.button("🛑 Regulatory Halt", type="secondary", use_container_width=True):
     add_audit(f"CRITICAL: Regulatory Halt initiated for ID-{selected_id}.")
     st.error("Account Frozen for Compliance")
-     else:
-         st.success("🎉 Sovereign Watchlist Clear")
+   else:
+    st.success("🎉 Sovereign Watchlist Clear")
 
 
 
