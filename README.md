@@ -36,3 +36,23 @@ The sidebar acts as the "Simulation Engine", allowing administrators to manipula
 
 **The Logic**:In high-variance financial data, logarithmic scales help in identifying micro-trends in massive datasets that would otherwise be hidden in a standard linear view.
 
+****Strategic Risk Mapping (The Quadrant)**-**
+The central visualization uses a Risk vs. Value (Predicted LTV) matrix.
+
+**The Logic:** By plotting accounts on this grid, the AI identifies high-value assets that are drifting into high-risk zones (the top-right quadrant).
+
+**Categories:** It automatically segments users into Financial, Technical, or General Service risks, allowing for targeted institutional intervention.
+
+****AI Rationale Engine****-
+On the right sidebar, the system provides a Transparency Layer.
+
+**Model Confidence:** Displays a real-time confidence score (e.g., 97.3%) for each risk prediction.
+
+**Variable Impact:** A bar chart visualizes which factors—such as Market Sentiment, LTV Drop, or Service Usage—are driving the **risk alert**.
+
+**Action Engine & Audit Trail**
+
+**The "Deploy Protocol" Button:** Allows administrators to execute stabilization measures with a single click.
+
+**System Activity Audit:** A live ledger at the bottom records every action taken (e.g., "ID-1041 resolved via stabilization protocol") ensuring full **regulatory compliance and accountability.**
+
