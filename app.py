@@ -39,7 +39,7 @@ st.markdown("""
      """, unsafe_allow_html=True)
  
  # --- 3. CORE LOGIC & DATA GENERATION ---
- @st.cache_data
+@st.cache_data
 def load_data(rows=50):
  df = pd.DataFrame({
   'CustomerId': range(1000, 1000 + rows),
